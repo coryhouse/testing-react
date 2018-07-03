@@ -10,12 +10,8 @@ export class FuelSavingsPage extends React.Component {
     saveCompleted: false
   };
 
-  setTheState = (state, props) {
-    return { saveCompleted: !prevState.saveCompleted };
-  }
-
   saveFuelSavings = () => {
-    this.setState();
+    this.setState({saveCompleted: true});
     this.props.actions.saveFuelSavings(this.props.fuelSavings);
   };
 
