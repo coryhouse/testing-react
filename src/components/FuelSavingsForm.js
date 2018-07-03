@@ -108,7 +108,7 @@ const FuelSavingsForm = ({
       </div>
     )}
 
-    {saveCompleted && <div id="saveCompleted">Saved! 🎉😎👍</div>}
+    {saveCompleted && <div id="saveCompleted">Saved! <span role="img" aria-label="Party">🎉</span></div>}
   </div>
 );
 
