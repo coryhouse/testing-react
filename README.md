@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-## Testing related libraries utilized:
+## Testing libraries
 
 This instance of create-react-app has been enhanced with the following testing libraries:
 
