@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+# Quick Start
+
+```
+npm install
+npm start
+```
+
+The above commands will install dependencies and start the app. To run tests, run `npm test` on a separate command line. There are no tests written in the master branch.
+
 ## Testing libraries
 
 This instance of create-react-app has been enhanced with the following testing libraries:
