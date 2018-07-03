@@ -10,8 +10,13 @@ export class FuelSavingsPage extends React.Component {
     saveCompleted: false
   };
 
+  // Showing the extracted setState pattern here.
+  toggleStateCompleted = (state, props) => {
+    return { saveCompleted: !state.saveCompleted };
+  };
+
   saveFuelSavings = () => {
-    this.setState({saveCompleted: true});
+    this.setState(this.toggleStateCompleted);
     this.props.actions.saveFuelSavings(this.props.fuelSavings);
   };
 
