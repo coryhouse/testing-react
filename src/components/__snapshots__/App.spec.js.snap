@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div>
+  <div>
+    <a
+      aria-current="true"
+      className="active"
+      href="/"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "blue",
+        }
+      }
+    >
+      Home
+    </a>
+     | 
+    <a
+      aria-current={false}
+      className={undefined}
+      href="/fuel-savings"
+      onClick={[Function]}
+      style={undefined}
+    >
+      Demo App
+    </a>
+     | 
+    <a
+      aria-current={false}
+      className={undefined}
+      href="/about"
+      onClick={[Function]}
+      style={undefined}
+    >
+      About
+    </a>
+  </div>
+  <div>
+    <h1>
+      Demo App
+    </h1>
+  </div>
+</div>
+`;

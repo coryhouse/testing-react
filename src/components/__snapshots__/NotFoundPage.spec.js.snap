@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div>
+  <h4>
+    404 Page Not Found
+  </h4>
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+     Go back to homepage 
+  </a>
+</div>
+`;

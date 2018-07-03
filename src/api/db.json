@@ -1,0 +1,94 @@
+{
+  "fuelSavings": [
+    {
+      "id": 64393094,
+      "newMpg": 15,
+      "tradeMpg": 30,
+      "newPpg": 2,
+      "tradePpg": 1,
+      "milesDriven": 43727,
+      "milesDrivenTimeframe": "year",
+      "dateModified": "2018-06-07T06:16:28.482Z"
+    },
+    {
+      "id": 3276534,
+      "newMpg": 49,
+      "tradeMpg": 21,
+      "newPpg": 3,
+      "tradePpg": 3,
+      "milesDriven": 74205,
+      "milesDrivenTimeframe": "year",
+      "dateModified": "2018-06-07T01:11:28.166Z"
+    },
+    {
+      "id": 44325878,
+      "newMpg": 10,
+      "tradeMpg": 28,
+      "newPpg": 4,
+      "tradePpg": 5,
+      "milesDriven": 31515,
+      "milesDrivenTimeframe": "week",
+      "dateModified": "2018-06-07T07:50:06.293Z"
+    },
+    {
+      "id": 62802519,
+      "newMpg": 16,
+      "tradeMpg": 16,
+      "newPpg": 5,
+      "tradePpg": 1,
+      "milesDriven": 84576,
+      "milesDrivenTimeframe": "week",
+      "dateModified": "2018-06-07T03:55:55.919Z"
+    },
+    {
+      "id": 55949413,
+      "newMpg": 13,
+      "tradeMpg": 46,
+      "newPpg": 3,
+      "tradePpg": 4,
+      "milesDriven": 29735,
+      "milesDrivenTimeframe": "year",
+      "dateModified": "2018-06-07T01:13:34.868Z"
+    },
+    {
+      "newMpg": 50,
+      "tradeMpg": 13,
+      "newPpg": 2,
+      "tradePpg": 2,
+      "milesDriven": 100,
+      "milesDrivenTimeframe": "week",
+      "dateModified": "2018-06-07T22:09:06.543Z",
+      "id": 64393095
+    },
+    {
+      "newMpg": 50,
+      "tradeMpg": 13,
+      "newPpg": 2,
+      "tradePpg": 2,
+      "milesDriven": 100,
+      "milesDrivenTimeframe": "week",
+      "dateModified": "2018-06-07T22:09:07.003Z",
+      "id": 64393096
+    },
+    {
+      "newMpg": 50,
+      "tradeMpg": 13,
+      "newPpg": 2,
+      "tradePpg": 2,
+      "milesDriven": 100,
+      "milesDrivenTimeframe": "week",
+      "dateModified": "2018-06-07T22:09:07.587Z",
+      "id": 64393097
+    },
+    {
+      "newMpg": 30,
+      "tradeMpg": 30,
+      "newPpg": 3,
+      "tradePpg": 3,
+      "milesDriven": 10000,
+      "milesDrivenTimeframe": "year",
+      "dateModified": "2018-06-07T22:10:10.385Z",
+      "id": 64393098
+    }
+  ]
+}

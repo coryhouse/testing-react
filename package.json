@@ -1,0 +1,47 @@
+{
+  "name": "testing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js start-mockapi",
+    "prestart-mockapi": "node buildScripts/generateMockData",
+    "start-mockapi": "json-server --watch src/api/db.json --port 3001 --static node_modules/json-server/lib/server/public",
+    "build-js": "react-scripts build",
+    "build": "npm-run-all build-css build-js",
+    "test": "react-scripts test --env=jsdom",
+    "coverage": "react-scripts test --env=jsdom --coverage ",
+    "open:coverage": "npm run coverage && opn ./coverage/lcov-report/index.html",
+    "cypress": "cypress open",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-cli": "^6.26.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.11.0",
+    "cypress": "^1.4.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "json-schema-faker": "0.3.6",
+    "json-server": "^0.12.1",
+    "mockdate": "^2.0.2",
+    "node-sass-chokidar": "0.0.3",
+    "npm-run-all": "^4.1.2",
+    "opn-cli": "^3.1.0",
+    "react-test-renderer": "^16.2.0",
+    "redux-immutable-state-invariant": "^2.1.0",
+    "redux-mock-store": "^1.4.0"
+  }
+}

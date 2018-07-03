@@ -1,0 +1,31 @@
+/* Variables */
+/* Styles */
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  color: #4d4d4d;
+  min-width: 230px;
+  max-width: 550px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300; }
+
+td {
+  padding: 12px; }
+
+h2 {
+  color: #5bb7db; }
+
+.savings {
+  color: #60b044; }
+
+.loss {
+  color: #ff0000; }
+
+input.small {
+  width: 46px; }
+
+td.fuel-savings-label {
+  width: 175px; }
