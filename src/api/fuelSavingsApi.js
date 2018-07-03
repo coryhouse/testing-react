@@ -5,6 +5,10 @@ var api = axios.create({
   responseType: "json"
 });
 
+export function getAxiosApi() {
+  return api;
+}
+
 export function save(fuelSavings) {
   return api
     .post("fuelSavings", {
