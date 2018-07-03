@@ -199,7 +199,13 @@ exports[`<FuelSavingsForm /> should display save button when saveCompleted is tr
   <div
     id="saveCompleted"
   >
-    Saved! 🎉😎👍
+    Saved! 
+    <span
+      aria-label="Party"
+      role="img"
+    >
+      🎉
+    </span>
   </div>
 </div>
 `;
