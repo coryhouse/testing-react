@@ -4,7 +4,7 @@ exports[`should match snapshot 1`] = `
 <div>
   <div>
     <a
-      aria-current="true"
+      aria-current="page"
       className="active"
       href="/"
       onClick={[Function]}
@@ -18,7 +18,7 @@ exports[`should match snapshot 1`] = `
     </a>
      | 
     <a
-      aria-current={false}
+      aria-current={null}
       className={undefined}
       href="/fuel-savings"
       onClick={[Function]}
@@ -28,7 +28,7 @@ exports[`should match snapshot 1`] = `
     </a>
      | 
     <a
-      aria-current={false}
+      aria-current={null}
       className={undefined}
       href="/about"
       onClick={[Function]}

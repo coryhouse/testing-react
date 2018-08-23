@@ -1,29 +1,28 @@
-import React from 'react';
-import { shallow } from 'enzyme';
-import AboutPage from './AboutPage';
+import React from "react";
+import { cleanup } from "react-testing-library";
+import { renderWithRouter } from "../utils/testing";
+import AboutPage from "./AboutPage";
 
-describe('<AboutPage />', () => {
-  it('should have a header called \'About\'', () => {
-    const wrapper = shallow(<AboutPage />);
-    const actual = wrapper.find('h2').text();
-    const expected = 'About';
+// TODO: Centralize: https://github.com/kentcdodds/react-testing-library#cleanup
+afterEach(cleanup);
 
-    expect(actual).toEqual(expected);
+describe("<AboutPage />", () => {
+  it("should have a header called 'About'", () => {
+    const { getByText } = renderWithRouter(<AboutPage />);
+    const header = getByText("About");
+
+    expect(header.innerHTML).toEqual("About");
   });
 
-  it('should have a header with \'alt-header\' class', () => {
-    const wrapper = shallow(<AboutPage />);
-    const actual = wrapper.find('h2').prop('className');
-    const expected = 'alt-header';
-
-    expect(actual).toEqual(expected);
+  it("should have a header with 'alt-header' class", () => {
+    const { getByTestId } = renderWithRouter(<AboutPage />);
+    const header = getByTestId("header");
+    expect(header.classList.contains("alt-header")).toBe(true);
   });
 
-  it('should link to an unknown route path', () => {
-    const wrapper = shallow(<AboutPage />);
-    const actual = wrapper.findWhere(n => n.prop('to') === '/badlink').length;
-    const expected = 1;
-
-    expect(actual).toEqual(expected);
+  it("should link to an unknown route path", () => {
+    const { getByText } = renderWithRouter(<AboutPage />);
+    const link = getByText("Click this bad link");
+    expect(link.getAttribute("href")).toEqual("/badlink");
   });
 });
