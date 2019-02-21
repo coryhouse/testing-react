@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "npm-run-all start-dev start-mockapi",
+    "start": "run-p start-dev start-mockapi",
     "start-dev": "react-scripts start",
     "prestart-mockapi": "node buildScripts/generateMockData",
     "start-mockapi": "json-server --watch src/api/db.json --port 3001 --static node_modules/json-server/lib/server/public",
