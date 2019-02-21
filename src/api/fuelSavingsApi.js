@@ -16,7 +16,8 @@ export function save(fuelSavings) {
       milesDrivenTimeframe: fuelSavings.milesDrivenTimeframe,
       dateModified: new Date()
     })
-    .then(onSuccess, onError);
+    .then(onSuccess)
+    .catch(onError);
 }
 
 function onSuccess(response) {
