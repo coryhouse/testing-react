@@ -42,6 +42,6 @@ describe("Fuel Savings", () => {
     cy.get("#milesDriven").type(10000);
     cy.get("#milesDrivenTimeframe").select("year");
     cy.get("#save").click();
-    cy.get("#saveCompleted").should("exist");
+    cy.get("#saveCompleted");
   });
 });
