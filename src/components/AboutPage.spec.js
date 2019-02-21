@@ -7,7 +7,7 @@ import AboutPage from "./AboutPage";
 afterEach(cleanup);
 
 describe("<AboutPage />", () => {
-  it("should have a header called 'About'", () => {
+  it("should have a header that contains 'About'", () => {
     const { getByText } = renderWithRouter(<AboutPage />);
     const header = getByText("About");
 
