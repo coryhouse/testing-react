@@ -22,7 +22,6 @@ exports[`<FuelSavingsPage /> should match snapshot 1`] = `
               id="newMpg"
               name="newMpg"
               onChange={[Function]}
-              placeholder={undefined}
               type="text"
               value=""
             />
@@ -42,7 +41,6 @@ exports[`<FuelSavingsPage /> should match snapshot 1`] = `
               id="tradeMpg"
               name="tradeMpg"
               onChange={[Function]}
-              placeholder={undefined}
               type="text"
               value=""
             />
@@ -62,7 +60,6 @@ exports[`<FuelSavingsPage /> should match snapshot 1`] = `
               id="newPpg"
               name="newPpg"
               onChange={[Function]}
-              placeholder={undefined}
               type="text"
               value=""
             />
@@ -82,7 +79,6 @@ exports[`<FuelSavingsPage /> should match snapshot 1`] = `
               id="tradePpg"
               name="tradePpg"
               onChange={[Function]}
-              placeholder={undefined}
               type="text"
               value=""
             />
@@ -102,7 +98,6 @@ exports[`<FuelSavingsPage /> should match snapshot 1`] = `
               id="milesDriven"
               name="milesDriven"
               onChange={[Function]}
-              placeholder={undefined}
               type="text"
               value=""
             />

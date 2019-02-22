@@ -20,8 +20,7 @@ exports[`<FuelSavingsForm /> should display save button when saveCompleted is tr
             className="small"
             id="newMpg"
             name="newMpg"
-            onChange={[Function]}
-            placeholder={undefined}
+            onChange={[MockFunction]}
             type="text"
             value={20}
           />
@@ -40,8 +39,7 @@ exports[`<FuelSavingsForm /> should display save button when saveCompleted is tr
             className="small"
             id="tradeMpg"
             name="tradeMpg"
-            onChange={[Function]}
-            placeholder={undefined}
+            onChange={[MockFunction]}
             type="text"
             value={20}
           />
@@ -60,8 +58,7 @@ exports[`<FuelSavingsForm /> should display save button when saveCompleted is tr
             className="small"
             id="newPpg"
             name="newPpg"
-            onChange={[Function]}
-            placeholder={undefined}
+            onChange={[MockFunction]}
             type="text"
             value={1.5}
           />
@@ -80,8 +77,7 @@ exports[`<FuelSavingsForm /> should display save button when saveCompleted is tr
             className="small"
             id="tradePpg"
             name="tradePpg"
-            onChange={[Function]}
-            placeholder={undefined}
+            onChange={[MockFunction]}
             type="text"
             value={1.5}
           />
@@ -100,8 +96,7 @@ exports[`<FuelSavingsForm /> should display save button when saveCompleted is tr
             className="small"
             id="milesDriven"
             name="milesDriven"
-            onChange={[Function]}
-            placeholder={undefined}
+            onChange={[MockFunction]}
             type="text"
             value={100}
           />
@@ -109,7 +104,7 @@ exports[`<FuelSavingsForm /> should display save button when saveCompleted is tr
           <select
             id="milesDrivenTimeframe"
             name="milesDrivenTimeframe"
-            onChange={[Function]}
+            onChange={[MockFunction]}
             value="week"
           >
             <option
@@ -191,7 +186,7 @@ exports[`<FuelSavingsForm /> should display save button when saveCompleted is tr
     </table>
     <input
       id="save"
-      onClick={[Function]}
+      onClick={[MockFunction]}
       type="submit"
       value="Save"
     />
@@ -230,8 +225,7 @@ exports[`<FuelSavingsForm /> should hide save button when saveCompleted is false
             className="small"
             id="newMpg"
             name="newMpg"
-            onChange={[Function]}
-            placeholder={undefined}
+            onChange={[MockFunction]}
             type="text"
             value={20}
           />
@@ -250,8 +244,7 @@ exports[`<FuelSavingsForm /> should hide save button when saveCompleted is false
             className="small"
             id="tradeMpg"
             name="tradeMpg"
-            onChange={[Function]}
-            placeholder={undefined}
+            onChange={[MockFunction]}
             type="text"
             value={20}
           />
@@ -270,8 +263,7 @@ exports[`<FuelSavingsForm /> should hide save button when saveCompleted is false
             className="small"
             id="newPpg"
             name="newPpg"
-            onChange={[Function]}
-            placeholder={undefined}
+            onChange={[MockFunction]}
             type="text"
             value={1.5}
           />
@@ -290,8 +282,7 @@ exports[`<FuelSavingsForm /> should hide save button when saveCompleted is false
             className="small"
             id="tradePpg"
             name="tradePpg"
-            onChange={[Function]}
-            placeholder={undefined}
+            onChange={[MockFunction]}
             type="text"
             value={1.5}
           />
@@ -310,8 +301,7 @@ exports[`<FuelSavingsForm /> should hide save button when saveCompleted is false
             className="small"
             id="milesDriven"
             name="milesDriven"
-            onChange={[Function]}
-            placeholder={undefined}
+            onChange={[MockFunction]}
             type="text"
             value={100}
           />
@@ -319,7 +309,7 @@ exports[`<FuelSavingsForm /> should hide save button when saveCompleted is false
           <select
             id="milesDrivenTimeframe"
             name="milesDrivenTimeframe"
-            onChange={[Function]}
+            onChange={[MockFunction]}
             value="week"
           >
             <option
@@ -401,7 +391,7 @@ exports[`<FuelSavingsForm /> should hide save button when saveCompleted is false
     </table>
     <input
       id="save"
-      onClick={[Function]}
+      onClick={[MockFunction]}
       type="submit"
       value="Save"
     />
