@@ -13,7 +13,8 @@
     "coverage": "react-scripts test --env=jsdom --coverage ",
     "open:coverage": "npm run coverage && opn ./coverage/lcov-report/index.html",
     "cypress": "cypress open",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "start-test 3000 cypress"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -32,7 +33,7 @@
     "@cypress/instrument-cra": "file:../instrument-cra",
     "axios-mock-adapter": "^1.16.0",
     "babel-core": "^7.0.0-bridge.0",
-    "cypress": "^3.1.5",
+    "cypress": "^3.4.1",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.9.1",
     "istanbul-lib-coverage": "2.0.5",
@@ -46,7 +47,8 @@
     "react-test-renderer": "^16.8.2",
     "react-testing-library": "^5.9.0",
     "redux-immutable-state-invariant": "^2.1.0",
-    "redux-mock-store": "^1.5.3"
+    "redux-mock-store": "^1.5.3",
+    "start-server-and-test": "1.9.2"
   },
   "browserslist": [
     ">0.2%",
