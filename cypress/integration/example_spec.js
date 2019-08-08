@@ -13,7 +13,7 @@ describe('testing-react', () => {
     })
   })
 
-  context.only('fuel savings app', () => {
+  context('fuel savings app', () => {
     it('saves fuel', () => {
       cy.contains('Demo App').click()
       cy.url().should('match', /fuel-savings$/)
