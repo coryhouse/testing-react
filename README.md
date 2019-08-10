@@ -36,6 +36,8 @@ This instance of create-react-app has been enhanced with the following testing l
 
 When you run the application with `npm start` it instruments the source code using [@cypress/instrument-cra](https://github.com/cypress-io/instrument-cra) module. The code coverage is collected using [@cypress/code-coverage](https://github.com/cypress-io/code-coverage) plugin and saved in `coverage` folder.
 
+![Coverage report](images/96.png)
+
 For more details about code coverage, see
 - [Cypress code coverage guide](https://on.cypress.io/code-coverage)
 - [Complete code coverage with Cypress](https://www.cypress.io/blog/2019/08/08/webcast-recording-complete-code-coverage-with-cypress/) webinar

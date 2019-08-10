@@ -4,6 +4,11 @@ import {
   getCurrencyFormattedNumber,
   getFormattedNumber
 } from '../../src/utils/numberFormat'
+import { padLeadingZero } from '../../src/utils/dates'
+import {
+  calculateMilesDrivenPerMonth,
+  calculateSavingsPerMonth
+} from '../../src/utils/fuelSavings'
 
 context('unit tests', () => {
   describe('roundNumber', () => {
@@ -35,6 +40,28 @@ context('unit tests', () => {
       )
       // always 2 digits for cents
       expect(getFormattedNumber(99.1), '99.1').to.equal('99.10')
+    })
+  })
+
+  describe('padLeadingZero', () => {
+    it('handles NaN', () => {
+      expect(() => padLeadingZero('foo')).to.throw('Numbers only.')
+    })
+  })
+
+  describe('calculateMilesDrivenPerMonth', () => {
+    it('computes monthly', () => {
+      expect(calculateMilesDrivenPerMonth(100, 'month')).to.equal(100)
+      expect(calculateMilesDrivenPerMonth(1200, 'year')).to.equal(100)
+      expect(() => calculateMilesDrivenPerMonth(1200, 'parsec')).to.throw(
+        'parsec'
+      )
+    })
+  })
+
+  describe('calculateSavingsPerMonth', () => {
+    it('returns 0', () => {
+      expect(calculateSavingsPerMonth({ milesDrive: 0 })).to.equal(0)
     })
   })
 })
