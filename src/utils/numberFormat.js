@@ -43,6 +43,9 @@ export function isInt(n) {
 }
 
 export function scrubFormatting(value) {
+  if (value === null || value === undefined) {
+    return null
+  }
   return value
     .toString()
     .replace("$", "")
