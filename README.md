@@ -1,25 +1,16 @@
-# Testing Demo App
+# todo_list_with_jest_testing
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+## Created with CodeSandbox
 
-# Quick Start
+To run the application execute following commands in sequence
 
-```
-npm install
-npm start
-```
+1. npm install
+2. npm start
 
-The above commands will install dependencies and start the app. To run tests, run `npm test` on a separate command line. There are no tests written in the master branch.
+To run the tests execute
 
-## Testing libraries
+1. npm run test
 
-This instance of create-react-app has been enhanced with the following testing libraries:
+To run test coverage
 
-| Library                 | Description                                                                        |
-| ----------------------- | ---------------------------------------------------------------------------------- |
-| Jest                    | Automated testing                                                                  |
-| Enzyme                  | Unit test React components in isolation via `shallow` or with children via `mount` |
-| enzyme-adapter-react-16 | Configures enzyme to work with React 16                                            |
-| react-test-renderer     | Render React components to JSON for snapshot testing                               |
-| redux-mock-store | Mock store for testing your redux async action creators and middleware |
-| Cypress                 | In browser integration testing via Mocha and Chai                                  |
+1. npm run test -- --coverage --watchAll=false

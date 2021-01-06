@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test TodoItem component 1`] = `
+<div
+  className="todo-item"
+>
+  <h2>
+    Read Newspaper
+  </h2>
+</div>
+`;

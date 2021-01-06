@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test TodoList component 1`] = `
+<div
+  className="container"
+>
+  <Header />
+  <AddTodo
+    handleAddTodo={[Function]}
+  />
+  <TodoLists
+    todos={Array []}
+  />
+  <Footer />
+</div>
+`;

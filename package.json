@@ -1,48 +1,27 @@
 {
-  "name": "testing",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "start": "npm-run-all start-dev start-mockapi",
-    "start-dev": "react-scripts start",
-    "prestart-mockapi": "node buildScripts/generateMockData",
-    "start-mockapi": "json-server --watch src/api/db.json --port 3001 --static node_modules/json-server/lib/server/public",
-    "build-js": "react-scripts build",
-    "build": "npm-run-all build-css build-js",
-    "test": "react-scripts test --env=jsdom",
-    "coverage": "react-scripts test --env=jsdom --coverage ",
-    "open:coverage": "npm run coverage && opn ./coverage/lcov-report/index.html",
-    "cypress": "cypress open",
-    "eject": "react-scripts eject"
-  },
+  "name": "new",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
   "dependencies": {
-    "axios": "^0.18.0",
-    "babel-cli": "^6.26.0",
-    "react": "^16.8.2",
-    "react-dom": "^16.8.2",
-    "react-redux": "^6.0.1",
-    "react-router-dom": "^4.3.1",
-    "react-router-redux": "^4.0.8",
-    "react-scripts": "2.1.5",
-    "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0"
+    "bootstrap": "4.4.1",
+    "react": "16.8.6",
+    "react-bootstrap": "1.0.0-beta.16",
+    "react-dom": "16.8.6",
+    "react-scripts": "3.0.1"
   },
   "devDependencies": {
-    "axios-mock-adapter": "^1.16.0",
-    "babel-core": "^7.0.0-bridge.0",
-    "cypress": "^3.1.5",
-    "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.9.1",
-    "json-schema-faker": "0.3.6",
-    "json-server": "^0.12.1",
-    "mockdate": "^2.0.2",
-    "node-sass": "^4.11.0",
-    "npm-run-all": "^4.1.5",
-    "opn-cli": "^4.0.0",
-    "react-test-renderer": "^16.8.2",
-    "react-testing-library": "^5.9.0",
-    "redux-immutable-state-invariant": "^2.1.0",
-    "redux-mock-store": "^1.5.3"
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest-enzyme": "^7.1.2",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "browserslist": [
     ">0.2%",

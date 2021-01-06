@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should handle onSubmit handler 1`] = `
+<Form
+  inline={false}
+  onSubmit={[MockFunction]}
+>
+  <FormGroup
+    controlId="item"
+  >
+    <FormLabel
+      column={false}
+      srOnly={false}
+    >
+      What you want to do?
+    </FormLabel>
+    <FormControl
+      name="todo"
+      placeholder="Enter todo"
+      type="text"
+    />
+  </FormGroup>
+  <Button
+    active={false}
+    disabled={false}
+    type="submit"
+    variant="primary"
+  >
+    Add Todo
+  </Button>
+</Form>
+`;
